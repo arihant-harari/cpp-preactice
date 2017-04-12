@@ -36,6 +36,6 @@ int main()
 {
     class student s("arihant", 9);
     s.get_details(&s);
-    
+
     return 0;
 }
