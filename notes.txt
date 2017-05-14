@@ -1,0 +1,2 @@
+If object is passed by function by 'pass by value', constructor of that object and copy constructor will be called. Be careful!
+

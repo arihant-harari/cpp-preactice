@@ -32,9 +32,19 @@ class car:public vehicle
     car(car &obj)
     {
         cout<<"copy constructor called"<<endl;
-        cout<<"model_name"<<model_name<<endl;
+        model_name = obj.model_name;
+    }
+
+    int get_details()
+    {
+        cout<<"model_name:"<<model_name<<endl;
     }
 };
+
+int display(car obj)
+{
+    cout<<"dispaly:model name:"<<obj.get_details()<<endl;
+}
 
 int main()
 {
@@ -43,8 +53,13 @@ int main()
     /*when copy constructor is called,
       you must copy the values which you need,
       by default no values will be coopied*/
-    class car baleno = swift;//copy constructor called
-    class car brezza(swift);//copy constructor called
+//    class car baleno = swift;//copy constructor called
+  //  class car brezza(swift);//copy constructor called
+    //swift.get_details();
+    //baleno.get_details();
+   // brezza.get_details();
+
+    display(swift);
 
     return 0;
 }
