@@ -13,16 +13,16 @@ class student
     {
 
     }
-    string get_name();
-    int get_rno();
+    const string get_name();
+    const int get_rno();
 };
 
-int student::get_rno()
+const int student::get_rno()
 {
     return rno;
 }
 
-string student::get_name()
+const string student::get_name()
 {
     return name;
 }

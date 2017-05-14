@@ -1,0 +1,7 @@
+class
+copy constructor
+scope resolution operator
+constructor, destructor
+object reference
+object intialize during object creation
+strings
